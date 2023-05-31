@@ -15,7 +15,7 @@ const prodConfig = {
             name: "container",
             remotes: {
               RemoteCounterApp: `counter@${domain}/remotereactapp/latest/remoteEntry.js`,
-              RemoteVueApp: `vueRemote${domain}/remotevueapp/latest/remoteEntry.js`
+              RemoteVueApp: `vueRemote@${domain}/remotevueapp/latest/remoteEntry.js`
             },
             shared: ['react', 'react-dom']
         }),
