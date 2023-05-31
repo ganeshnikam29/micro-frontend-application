@@ -3,7 +3,7 @@ import MyCounterApp from "./components/MyCounterApp";
 import MyVueApp from "./components/MyVueApp";
 
 export const App = () => (
-  <div style={{ background: "lightgrey" }}>
+  <div style={{ background: "lightblue" }}>
     <h1>This is Container App . It is Host!!</h1>
     <h2>Remote App are follows:</h2>
     <MyCounterApp />
