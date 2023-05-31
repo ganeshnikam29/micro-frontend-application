@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>This is vue JS Application. It is MFE-one !!</h1>
+    <h1>This is vue JS Application. It is MFE-one!!</h1>
   </div>
 </template>
 
