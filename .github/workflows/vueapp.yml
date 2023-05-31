@@ -1,0 +1,23 @@
+name: 'vue-app-deployment'
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "vueMFE/**"
+
+defaults:
+  run:
+    working-directory: vueMFE
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run build
+        env:
+          PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
