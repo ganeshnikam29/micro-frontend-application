@@ -6,7 +6,7 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
-    publicPath: '/remotereactapp/latest'
+    publicPath: '/remotereactapp/latest/'
   },
   plugins: [
     new ModuleFederationPlugin({

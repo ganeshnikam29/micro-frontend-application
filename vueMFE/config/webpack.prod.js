@@ -6,7 +6,7 @@ const prodConfig = {
     mode: 'production',
     output: {
         filename: '[name].[contenthash].js',
-        publicPath: '/remotevueapp/latest'
+        publicPath: '/remotevueapp/latest/'
     },
     plugins: [
         new ModuleFederationPlugin({
